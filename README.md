@@ -19,6 +19,8 @@ Normally, the search efficiency of GA is not as excepted. Below is the method we
 
 The champion solution in this competition also uses GA. Congratulations to him!
 The keypoint for his solution is setting up the mutation policy like this: 
-    father : x
-    children : 1-x
+
+- father : x
+- children : 1-x
+
 This is really interesting and can be explained by there's a prior knowledge that the same policy in two years should be high, low, high, like that.
