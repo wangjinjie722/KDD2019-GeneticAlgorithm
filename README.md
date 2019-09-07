@@ -9,10 +9,11 @@ This is a game you should provide a five-year policy to control the malaria. For
 
 if ur not familiar with these algorithm, I highly recommend u to read the tutorials of Morvan Zhou.(https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/)
 
-***
+
+
 ## Genetic Algorithm
 
-### **The code is developed upon the basic of gaft(https://github.com/PytLab/gaft).**
+### **The code is developed upon the base of gaft(https://github.com/PytLab/gaft).**
 
 Normally, the search efficiency of GA is not as excepted. Below is the method we use to raise it. In this project, we used 36 times attempts to get the correct first year policy and then use GA to search the space. For the child generation, we use a LSTM to predict the reward of child to accelerate the convergence. And set up the step length by 0.2.
 
